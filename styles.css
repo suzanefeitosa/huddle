@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 200px;
+    margin: 3vw 0 0 5vw;
+   
+}
+
+body {
+    background: url(./assets/bg-desktop.svg) #674baf no-repeat;
+    background-size: auto;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+   
+}
+
+.mockup img {
+   
+    display: flex;
+    margin: 42px 0px 42px 42px;
+    
+}
+.container {
+  padding: 60px;
+  margin-top: -12vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.title {
+   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    font-size: 35px;
+}
+
+.text {
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+
+}
+
+button {
+    border: 2px solid #674baf; 
+    border-radius: 35vw;
+    padding: 10px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #674baf;
+    box-shadow: 0 0 15px #0900107d;
+    transition: background 0.3s;
+   
+}
+
+button:hover {
+
+     background-color: #A94FCB;
+     cursor: pointer;
+     color: white;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 12px;
+    font-size: 30px;
+    color: white;
+    margin-right: 45px;
+   
+}
+
+.social-links a {
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 18px;
+}
+.text-footer {
+
+font-family: 'Opens-sans' , sans-serif;
+ font-weight: 400;
+ font-size: 10px;
+ color: white;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ padding-bottom: 8px;
+
+}
+.text-footer a {
+
+ text-decoration: none;
+ color: white;
+ font-family: 'Opens-sans' , sans-serif;
+ font-weight: 400;
+ font-size: 10px;
+}
+
+/*scrollbar */
+
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color:#A94FCB; 
+}
