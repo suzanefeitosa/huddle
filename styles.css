@@ -188,7 +188,10 @@ font-family: 'Opens-sans' , sans-serif;
     button {
        
         padding: 10px 70px;
-        margin-left: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 65px;
 
     }
 
@@ -197,7 +200,7 @@ font-family: 'Opens-sans' , sans-serif;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 45px;
     }
 
     footer {
