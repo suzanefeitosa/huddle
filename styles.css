@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .logo {
     width: 200px;
     margin: 3vw 0 0 5vw;
@@ -53,7 +54,7 @@ main {
     font-size: 16px;
     color: white;
     line-height: 1.5;
-
+    width: 68vh;
 }
 
 button {
@@ -96,6 +97,7 @@ button:hover {
     align-items: flex-end;
     font-size: 18px;
 }
+
 .text-footer {
 
 font-family: 'Opens-sans' , sans-serif;
@@ -127,4 +129,81 @@ font-family: 'Opens-sans' , sans-serif;
 ::-webkit-scrollbar-thumb {
     width: 8px;
     background-color:#A94FCB; 
+}
+
+
+/* media queries */ 
+
+@media (max-width: 600px) {
+
+    body {
+        background-image: url(./assets/bg-mobile.svg);
+        background-color: #674baf;
+        background-position:top;
+        background-size: 100%;
+       position: fixed;
+    }
+
+    main {
+        display: flex;
+       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mockup img {
+
+        width: 318px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+    margin: 30px;
+    width: 150px;
+
+    }
+
+    .title {
+        padding-top: 20px;
+        font-size: 25px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+       
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Opens-sans', sans-serif;
+        font-weight: 400;
+        display: flex;
+        width: 325px;
+    }
+
+    button {
+       
+        padding: 10px 70px;
+        margin-left: 55px;
+
+    }
+
+    .social-links {
+        
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    }
+
+    footer {
+        
+        margin-top: 40px;
+      
+    }
+
 }
