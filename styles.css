@@ -139,9 +139,9 @@ font-family: 'Opens-sans' , sans-serif;
     body {
         background-image: url(./assets/bg-mobile.svg);
         background-color: #674baf;
-        background-position:top;
+        background-position:top fixed;
         background-size: 100%;
-       position: fixed;
+      
     }
 
     main {
