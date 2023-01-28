@@ -141,6 +141,7 @@ font-family: 'Opens-sans' , sans-serif;
         background-color: #674baf;
         background-position:top fixed;
         background-size: 100%;
+        overflow-x: hidden;
       
     }
 
